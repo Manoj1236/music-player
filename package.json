@@ -1,24 +1,23 @@
 {
-  "name": "music-player-1",
+  "name": "music-player",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "static music-player website",
+  "main": "index.js",
+  
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/Manoj1236/musicplayer.git"
   },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "author": "Manoj",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/Manoj1236/musicplayer/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-    "serve": "^11.2.0"
+  "homepage": "https://github.com/Manoj1236/musicplayer#readme",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
